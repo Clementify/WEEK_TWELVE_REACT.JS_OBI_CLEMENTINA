@@ -1,38 +1,53 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background-color: bisque;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.myMeal {
+    padding: 10px;
+    color: azure;
+    background-color: brown;
+    font-size: 14px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1 {
+    font-size: 18px;
 }
 
-.App-link {
-  color: #61dafb;
+h2 {
+    color: brown;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul li {
+    list-style: none;
+}
+
+
+.categories-meal {
+    margin: 50px 100px;
+}
+
+li {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.desc-des {
+    text-align: left;
+    margin-left: 15px;
+}
+
+p {
+    font-size: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.loading {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+    padding-top: 150px;
 }
